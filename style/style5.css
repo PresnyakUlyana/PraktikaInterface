@@ -1,0 +1,327 @@
+body {
+    background-image: url('fon2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0,0,0);
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    background-color: #132444;
+    margin-top: 0px;
+}
+
+  
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.logo{
+    width: 45px;
+    height: 42px;
+    border-radius: 100%;
+    margin-right:auto;
+    margin-left: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: #FFF2E0;
+     font-family: "Manrope", sans-serif;
+    font-size: 24px;
+}
+a:hover{
+    color: #006aff;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #132444;
+}
+h1{
+    font-family: "Baskerville BT [Rus by me]",sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #132444;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h2{
+    font-family: "Baskerville BT [Rus by me]", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #132444;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h3{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    color: #132444;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+section{
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    padding: 315 px;
+    background-color: #132444;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.img1{
+    float: left;
+    margin-left: 8 px;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    font-family: "Manrope", regular;
+    color: #132444;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-right: 380px;
+}
+.logo1{
+    width: 59px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right:auto;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+ul1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+a1{
+    text-decoration: none;
+    color: #FFF2E0;
+     font-family: "Manrope", sans-serif;
+    font-size: 20px;
+}
+h4{
+    font-family:"Baskerville BT [Rus by me]", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    color: #FFF2E0;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+p1{
+    font-family: "Manrope", regular;
+    color: #FFF2E0;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 380px;
+}
+br{
+    text-align: center;
+}
+.navig{
+    display: flex;
+    gap: 20px;
+}
+.navigation1{
+    display: flex;
+    justify-content: center;
+    background-color: #132444;
+}
+article1{
+    margin-left: 200px;
+}
+article2{
+    margin-top: 50px;
+    gap:20px;
+}
+.step-card1{
+    background-color: #FCDFB4;
+}
+.step-card2{
+    background-color: #FCDFB4;
+}
+.step-card3{
+    background-color: #FCDFB4;
+}
+.test-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.steps-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.number{
+    width: 40px;
+    height: 42px;
+}
+#display{
+    width: 1000px;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    background-color: #FEECD2;
+}
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+button{
+    background-color: transparent;
+    stroke: #132444;
+    width: 90%;
+    height: 44px;
+    font-family: "Manrope", regular;
+    color: #132444;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.article_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .steps-container {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .step-card {
+        flex: 1 1 48%; 
+        margin-bottom: 1.5rem;
+    }
+    
+    .test-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .test-image {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-toggle {
+        display: block; 
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .steps-container {
+        flex-direction: column;
+    }
+    
+    .step-card {
+        flex: 1 1 100%; 
+        margin-bottom: 1.5rem;
+    }
+    
+    .step-arrow {
+        display: none; 
+    }
+    
+    .buttons-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .btn-placeholder {
+        flex: 1 1 100%;
+        max-width: 180px;
+        margin: 0.5rem;
+    }
+    
+    .test-section {
+        padding: 1.5rem;
+    }
+    
+    .test-content h2 {
+        font-size: 1.8rem;
+    }
+}

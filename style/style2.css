@@ -1,0 +1,222 @@
+body {
+    background-image: url('fon2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0,0,0);
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.header{
+    width: 100%;
+    padding: 20px;
+    background-color: #132444;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: #FFF2E0;
+     font-family: "Manrope", sans-serif;
+    font-size: 24px;
+}
+a:hover{
+    color: #006aff;
+}
+
+  
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.logo{
+    width: 45px;
+    height: 42px;
+    border-radius: 100%;
+    margin-right:auto;
+    margin-left: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #132444;
+}
+h1{
+    font-family: "Baskerville BT [Rus by me]",sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #132444;
+    margin-left: 5%;
+}
+
+h2{
+    font-family: "Baskerville BT [Rus by me]", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #132444;
+    margin-left: 5%;
+}
+h3{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    color: #132444;
+    margin-left: 5%;
+}
+
+.navigation1{
+    display: flex;
+    gap: 20px;
+}
+.logo1{
+    width: 59px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right:auto;
+    margin-left: 115px;
+    margin-top: 20px;
+}
+
+ul1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+a1{
+    text-decoration: none;
+    color: #FFF2E0;
+     font-family: "Manrope", sans-serif;
+    font-size: 20px;
+}
+h4{
+    font-family:"Baskerville BT [Rus by me]", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+    color: #FFF2E0;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+p1{
+    font-family: "Manrope", regular;
+    color: #FFF2E0;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 380px;
+}
+br{
+    text-align: center;
+}
+.navig{
+    display: flex;
+    gap: 20px;
+}
+.navigation1{
+    display: flex;
+    justify-content: center;
+    background-color: #132444;
+}
+article1{
+    margin-left: 200px;
+}
+article2{
+    margin-top: 50px;
+    gap:20px;
+}
+
+.promotions-section{
+    margin-left: 200px ;
+    margin-right: 200px ;
+}
+.events-container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .navigation1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .promotions-section{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .promotions-card {
+        flex: 1 1 48%; 
+        margin-bottom: 1.5rem;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+   
+    .navigation {
+        display: none;
+        flex-wrap: wrap;
+    }
+    .navigation1 {
+        display: none;
+        flex-wrap: wrap;
+    }
+    
+    .nav-toggle {
+        display: block; 
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .promotions-section {
+        flex-direction: column;
+    }
+    
+
+}
